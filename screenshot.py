@@ -17,7 +17,8 @@ left = 620 #specify_your_dimensions
 right = 1920 - 620 #specify_your_dimensions
 top = 100 #specify_your_dimensions
 bottom = 1080 - 100 #specify_your_dimensions
-base = "C:/Users/your_user_name/Desktop/New folder/" #change here
+username = input("Enter your Username : ")
+base = "C:/Users/{username}/Desktop/New folder/" #change here
 bookName = "MyBook.acsm" # .acsm --> adobe digital edition extension
 end = 765 #no of pages in book
 
